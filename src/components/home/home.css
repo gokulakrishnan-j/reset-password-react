@@ -1,0 +1,42 @@
+.home{
+    height: 1oovh;
+}
+.welcome{
+    background: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Summer-Nature-Wallpaper-HD.jpg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.welcomeText{
+    margin-top: 0px;
+    position: relative;
+    top: 100px;
+    font-size:xx-large;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 4px 4px  black;
+}
+.code{
+    background: url("https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/JavaScript-code.jpg?itok=1Wia7hH0");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.logout{
+    font-size: large;
+    font-weight: bold;
+    background-color: white;
+    width: 100px;
+    margin: auto;
+    position: relative;
+    top: 35vh;
+    padding: 12px;
+    border-radius: 20px;
+}
+.logout:hover{
+    background-color: rgba(207, 41, 0, 0.911);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+.inputbox{
+    box-shadow: rgba(0, 0, 0, 0.281) 1px 1px 2px 2px;
+    width: 40vw;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    padding: 24px;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+}
+.button{
+    background-color: rgba(247, 0, 82, 0.897);
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: rgba(240, 248, 255, 0);
+    width: 255px;
+}
+.button:hover{
+    background-color: rgb(1, 197, 1);
+}
+
+.forgotPassword{
+    position: relative;
+    top :15px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.forgotPassword:hover{
+    color: rgb(0, 132, 255);
+   
+}
+.haveAndDontHave{
+    cursor: pointer;
+    color: rgb(190, 0, 32);
+    font-weight: bold;
+}
+.haveAndDontHave:hover{
+    color: rgb(0, 175, 175);
+}
+
+
+@media(max-width:600px){
+    .inputbox{
+        width: 88vw;
+    }
+}
+@media(max-width:480px){
+    .inputbox{
+        width: 80vw;
+    }
+}
+@media(max-width:340px){
+    .button{
+        width: 75vw;
+    }
+}
